@@ -1,0 +1,142 @@
+// at least 12 objects in the array
+
+const manga = [
+    {
+        id: 1,
+        name: 'Bleach',
+        author: 'Tite Kubo',
+        demographic: 'Shonen',
+        genre: ['Battle', 'Protagonist-driven', 'Themes-driven', 'Supernatural'],
+        volumeCount: 74,
+        magazine: 'Weekly Shonen Jump',
+        yearStarted: new Date('August 7, 2001'),
+        yearEnded: new Date('August 22, 2016'),
+        myScore: 5
+    },
+    {
+        id: 2,
+        name: 'One Piece',
+        author: 'Eiichiro Oda',
+        demographic: 'Shonen',
+        genre: ['Battle', 'Cast-driven', 'Character-driven', 'Fantasy', 'Adventure'],
+        volumeCount: 110,
+        magazine: 'Weekly Shonen Jump',
+        yearStarted: new Date('July 22, 1997'),
+        yearEnded: new Date(),
+        myReview: 2
+    },
+    {
+        id: 3,
+        name: 'Dr. Stone',
+        author: 'Riichiro Inagaki',
+        demographic: 'Shonen',
+        genre: ['Non-battle', 'Cast-driven', 'Themes-driven', 'Adventure', 'Sci Fi'],
+        volumeCount: 27,
+        magazine: 'Weekly Shonen Jump',
+        yearStarted: new Date('March 6, 2017'),
+        yearEnded: new Date('March 7, 2022'),
+        myReview: 3
+    },
+    {
+        id: 4,
+        name: 'Devilman',
+        author: 'Go Nagai',
+        demographic: 'Shonen',
+        genre: ['Battle', 'Protagonist-driven', 'Themes-driven', 'Supernatural', 'Gritty'],
+        volumeCount: 5,
+        magazine: 'Weekly Shonen Magazine',
+        yearStarted: new Date('June 11, 1972'),
+        yearEnded: new Date('June 24, 1973'),
+        myReview: 3
+    },
+    {
+        id: 5,
+        name: 'Berserk',
+        author: 'Kentaro Miura',
+        demographic: 'Seinen',
+        genre: ['Battle', 'Protagonist-driven', 'Dark Fantasy', 'Gritty'],
+        volumeCount: 42,
+        magazine: 'Young Animal',
+        yearStarted: new Date('August 25, 1989'),
+        yearEnded: new Date(),
+        myReview: 2
+    },
+    {
+        id: 6,
+        name: 'Ajin',
+        author: 'Gamon Sakurai',
+        demographic: 'Seinen',
+        genre: ['Battle', 'Cast-driven', 'Themes-driven', 'Gritty', 'Supernatural'],
+        volumeCount: 17,
+        magazine: 'Good! Afternoon',
+        yearStarted: new Date('July 6, 2012'),
+        yearEnded: new Date('February 5, 2021'),
+        myReview: 4
+    },    {
+        id: 7,
+        name: 'Yugioh',
+        author: 'Kazuki Takahashi',
+        demographic: 'Shonen',
+        genre: ['Non-battle', 'Cast-driven', 'Sci Fi'],
+        volumeCount: 38,
+        magazine: 'Weekly Shonen Jump',
+        yearStarted: new Date('September 17, 1996'),
+        yearEnded: new Date('March 8, 2004'),
+        myReview: 5,
+    },    {
+        id: 8,
+        name: 'Hellsing',
+        author: 'Kouta Hirano',
+        demographic: 'Seinen',
+        genre: ['Battle', 'Protagonist-driven', 'Themes-driven', 'Supernatural', 'Gritty'],
+        volumeCount: 10,
+        magazine: 'Young King Ours',
+        yearStarted: new Date('April 30, 1997'),
+        yearEnded: new Date('September 30, 2008'),
+        myReview: 4
+    },    {
+        id: 9,
+        name: 'Attack on Titan',
+        author: 'Hajime Isayama',
+        demographic: 'Shonen',
+        genre: ['Battle', 'Protagonist-driven', 'Themes-driven', 'Dark Fantasy', 'Gritty'],
+        volumeCount: 34,
+        magazine: 'Bessatsu Shonen Magazine',
+        yearStarted: new Date('September 9, 2009'),
+        yearEnded: new Date('April 9, 2021'),
+        myReview: 5
+    },    {
+        id: 10,
+        name: 'Tokyo Ghoul',
+        author: 'Sui Ishida',
+        demographic: 'Seinen',
+        genre: ['Battle', 'Protagonist-driven', 'Supernatural', 'Gritty'],
+        volumeCount: 14,
+        magazine: 'Weekly Young Jump',
+        yearStarted: new Date('September 8, 2011'),
+        yearEnded: new Date('September 18, 2014'),
+        myReview: 3
+    },    {
+        id: 11,
+        name: '',
+        author: '',
+        demographic: '',
+        genre: [],
+        volumeCount: ,
+        magazine: ,
+        yearStarted: new Date(),
+        yearEnded: new Date(),
+        myReview:
+    },    {
+        id: 12,
+        name: '',
+        author: '',
+        demographic: '',
+        genre: [],
+        volumeCount: ,
+        magazine: ,
+        yearStarted: new Date(),
+        yearEnded: new Date(),
+        myReview:
+    },
+]
