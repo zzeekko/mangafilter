@@ -10,12 +10,89 @@
     <header class="header" id="header">
 
     </header>
+    <header class="header" id="header">
+        <div class="container">
+            <h1 class="text-center text-capitalize">Manga</h1>
+        </div>
+    </header>
     <main class="main" id="main">
-
+        <div class="container">
+            <div class="row">
+                <div class="col-4 mb-3">
+                    <form action="#" class="form d-flex" id="genreForm">
+                        <button class="btn btn-info" id="genreBtn" data-sort="genre">Filter</button>
+                        <select name="genre" id="genreSelect" class="form-select">
+                            <option selected value="">Genre</option>
+                            <option value="battle">Battle</option>
+                            <option value="non-battle">Non-battle</option>
+                            <option value="protagonist-driven">Protagonist-driven</option>
+                            <option value="cast-driven">Cast-driven</option>
+                            <option value="themes-driven">Themes-driven</option>
+                            <option value="adventure">Adventure</option>
+                            <option value="supernatural">Supernatural</option>
+                            <option value="fantasy">Fantasy</option>
+                            <option value="dark fantasy">Dark Fantasy</option>
+                            <option value="sci fi">Sci Fi</option>
+                            <option value="gritty">Gritty</option>
+                            <option value="sports">Sports</option>
+                            <option value="mecha">Mecha</option>
+                        </select>
+                        <img src="" alt="">
+                    </form>
+                </div>
+                <div class="col-4 mb-3 offset-4">
+                    <form action="#" class="form d-flex" id="magForm">
+                        <select name="magazine" id="magSelect" class="form-select">
+                            <option selected value="">Magazine</option>
+                            <option value="weekly shonen jump">Weekly Shonen Jump</option>
+                            <option value="weekly shonen magazine">Weekly Shonen Magazine</option>
+                            <option value="young animal">Young Animal</option>
+                            <option value="good afternoon">Good! Afternoon</option>
+                            <option value="young king ours">Young King Ours</option>
+                            <option value="bessatsu shonen magazine">Bessatsu Shonen Magazine</option>
+                            <option value="weekly young jump">Weekly Young Jump</option>
+                            <option value="weekly shonen sunday">Weekly Shonen Sunday</option>
+                        </select>
+                        <button class="btn btn-info" id="magBtn" data-sort="magazine">Filter</button>
+                    </form>
+                </div>
+                <div class="col-4 mb-3">
+                    <form action="#" class="form d-flex" id="demoForm">
+                        <button class="btn btn-info" id="demoBtn" data-sort="demographic">Filter</button>
+                        <select name="demographic" id="demoSelect" class="form-select">
+                            <option selected value="">Demographic</option>
+                            <option value="shonen">Shonen</option>
+                            <option value="seinen">Seinen</option>
+                        </select>
+                    </form>
+                </div>
+                <!-- <div class="col-4 mb-3 offset-4">
+                    <form action="#" class="form d-flex" id="reviewForm">
+                        <select name="review" id="reviewSelect" class="form-select">
+                            <option selected value="">My Review</option>
+                            <option value="1">1</option>
+                            <option value=2>2</option>
+                            <option value=3>3</option>
+                            <option value=4>4</option>
+                            <option value=5>5</option>
+                        </select>
+                        <button class="btn btn-info" id="reviewBtn" data-sort="review">Filter</button>
+                    </form>
+                </div> -->
+                <!-- <div class="col-4 mb-3 offset-4">
+                    <form action="#" class="form d-flex" id="completeForm">
+                        <select name="complete" id="completeSelect" class="form-select">
+                            <option selected value="">Complete?</option>
+                            <option value="true">Yes</option>
+                            <option value="false">No</option>
+                        </select>
+                        <button class="btn btn-info" id="completeBtn" data-sort="complete">Filter</button>
+                    </form>
+                </div> -->
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3" id="row"></div>
+        </div>
     </main>
-    <footer class="footer" id="footer">
-        
-    </footer>
     <script src="js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
