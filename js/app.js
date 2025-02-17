@@ -305,10 +305,10 @@ class Manga {
         } else if (filter == 'demographic') {
             const demographic = document.getElementById('demoSelect').value
             copy = this.data.filter(item => item.demographic == demographic)
-        } else if (filter == 'myReview') {
+        } /* else if (filter == 'myReview') {
             const myReview = document.getElementById('reviewSelect').value
             copy = this.data.filter(item => item.myReview == myReview)
-        } else {
+        } */ else {
             console.log('error')
         }
         this.loadCards(copy)
